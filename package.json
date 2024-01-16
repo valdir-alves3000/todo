@@ -6,15 +6,16 @@
   "scripts": {
     "test": "npx mocha --parallel --exit test/",
     "test:dev": "npx mocha test/ -w",
-    "test:cov": "npx nyc --reporters=html,text npm test"
+    "test:cov": "npx nyc --reporter=html,text npm test"
   },
   "keywords": [],
   "author": "Valdir Alves",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.4.1",
+    "lokijs": "1.5",
     "mocha": "^8.4.0",
     "nyc": "^15.1.0",
-    "sinon": "^9.2.4"
+    "sinon": "^9.2.3"
   }
 }
